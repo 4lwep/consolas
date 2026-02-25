@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { getProcesador } from "../../services/processors";
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import "../../pages/list/list.css";
+import "../../styles/list.css";
 import EnterpriseInfoCard from "../list/infoCards/EnterpriseInfoCard";
 import { useNavigate } from "react-router-dom";
 

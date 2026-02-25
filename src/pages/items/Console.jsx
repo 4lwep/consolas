@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { getConsola } from "../../services/consoles";
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import "../../pages/list/list.css";
+import "../../styles/list.css";
 import ProcessorInfoCard from "../list/infoCards/ProcessorInfoCard";
 import EnterpriseInfoCard from "../list/infoCards/EnterpriseInfoCard";
 import GraphicsInfoCard from "../list/infoCards/GraphicsInfoCard";

@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { getEmpresa } from "../../services/enterprises";
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import "../../pages/list/list.css";
+import "../../styles/list.css";
 
 export default function Enterprise() {
     const { id } = useParams();

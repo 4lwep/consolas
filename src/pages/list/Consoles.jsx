@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { getConsolas } from "../../services/consoles";
-import "./list.css";
+import "../../styles/list.css";
 import ConsoleInfoCard from "./infoCards/ConsoleInfoCard";
 import ListToolbar from "../../components/listToolbar/ListToolbar";
 import { FormControl, InputLabel, Select, MenuItem } from "@mui/material";

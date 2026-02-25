@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getProcesadores } from "../../services/processors";
 import { useNavigate } from "react-router-dom";
-import "./list.css";
+import "../../styles/list.css";
 import ProcessorInfoCard from "./infoCards/ProcessorInfoCard";
 import ListToolbar from "../../components/listToolbar/ListToolbar";
 import { FormControl, InputLabel, Select, MenuItem } from "@mui/material";

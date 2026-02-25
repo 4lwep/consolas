@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getEmpresas } from "../../services/enterprises";
 import { useNavigate } from "react-router-dom";
-import "./list.css";
+import "../../styles/list.css";
 import EnterpriseInfoCard from "./infoCards/EnterpriseInfoCard";
 import ListToolbar from "../../components/listToolbar/ListToolbar";
 import { FormControl, InputLabel, Select, MenuItem } from "@mui/material";

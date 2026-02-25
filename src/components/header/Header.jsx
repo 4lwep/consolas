@@ -5,7 +5,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import Menu from "./Menu";
 import User from "./User";
-import "./header.css";
+import "../../styles/header.css";
 import Logo from "/logo.jpg";
 
 function Header() {

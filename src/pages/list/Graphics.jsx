@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getGraficas } from "../../services/graphics";
 import { useNavigate } from "react-router-dom";
-import "./list.css";
+import "../../styles/list.css";
 import GraphicsInfoCard from "./infoCards/GraphicsInfoCard";
 import ListToolbar from "../../components/listToolbar/ListToolbar";
 import { FormControl, InputLabel, Select, MenuItem } from "@mui/material";
