@@ -45,7 +45,7 @@ export default function MediaCard({ id, itemType, nombre, logo, attributes = [],
         if (success) {
           toast.info(`${nombre} eliminado de favoritos`);
         } else {
-          setFavorite(true); // Revert UI
+          setFavorite(true);
           toast.error("Error al eliminar de favoritos");
         }
       } else {
@@ -54,7 +54,7 @@ export default function MediaCard({ id, itemType, nombre, logo, attributes = [],
         if (success) {
           toast.success(`${nombre} añadido a favoritos`);
         } else {
-          setFavorite(false); // Revert UI
+          setFavorite(false);
           toast.error("Error al añadir a favoritos");
         }
       }

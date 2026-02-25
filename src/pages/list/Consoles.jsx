@@ -37,7 +37,6 @@ export default function Consoles() {
         if (sortBy === "name") {
             comparison = (a.nombre || "").localeCompare(b.nombre || "");
         } else {
-            // Asumiendo formato YYYY-MM-DD
             comparison = (a.fechaSalida || "").localeCompare(b.fechaSalida || "");
         }
         return sortOrder === "asc" ? comparison : -comparison;
