@@ -1,0 +1,22 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.list-container h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
